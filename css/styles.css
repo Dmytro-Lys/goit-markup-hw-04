@@ -15,6 +15,7 @@
   --col-btn-shadow: rgba(0, 0, 0, 0.15);
   --col-navy-blue-shadow1: rgba(46, 47, 66, 0.08);
   --col-navy-blue-shadow2: rgba(46, 47, 66, 0.16);
+  --cont-max-width: 1440px;
   --cont-width: 1158px;
   --cont-padding-left: 15px;
   --cont-padding-right: 15px;
@@ -123,7 +124,15 @@ img {
 /* main */
 /* index hero */
 .index-section-hero {
-  background-color: var(--col-navy-blue);
+  background-color: var(--col-grey);
+  background-image: url(../images/index/hero/img-hero-dark-bg.png),
+    url(../images/index/hero/img-hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: cover; */
+  max-width: var(--cont-max-width);
+  margin-left: auto;
+  margin-right: auto;
   padding: 188px 0px;
 }
 .index-hero-h1 {
