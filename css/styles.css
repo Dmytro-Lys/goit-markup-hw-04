@@ -50,6 +50,7 @@ img {
 /* flex-header */
 .flex-header {
   display: flex;
+  align-items: baseline;
 }
 /* for sections */
 .section {
