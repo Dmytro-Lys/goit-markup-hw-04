@@ -195,6 +195,30 @@ img {
       ) / 4
   );
 }
+.index-section-strategy-item::before {
+  content: "";
+  height: 112px;
+  display: block;
+  background-color: var(--col-cloud);
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-size: auto calc(48 / 112);
+  background-position: center;
+  margin-bottom: 8px;
+}
+/* icons */
+.icon-antenna::before {
+  background-image: url(../images/index/strategy/svg-antenna.svg);
+}
+.icon-clock::before {
+  background-image: url(../images/index/strategy/svg-clock.svg);
+}
+.icon-diagram::before {
+  background-image: url(../images/index/strategy/svg-diagram.svg);
+}
+.icon-astronaut::before {
+  background-image: url(../images/index/strategy/svg-astronaut.svg);
+}
 .index-section-strategy-h3 {
   font-weight: 500;
   font-size: 20px;
