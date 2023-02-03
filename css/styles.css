@@ -70,7 +70,7 @@ img {
 .header {
   border-bottom: 1px solid var(--col-cornflower);
   padding-top: 24px;
-  padding-bottom: 0px;
+  padding-bottom: 24px;
 }
 
 /* logo */
@@ -101,28 +101,11 @@ img {
   color: var(--col-navy-blue);
   text-decoration: none;
 }
-.nav-a::after {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: transparent;
-  margin-top: 20px;
-}
 .nav-a:hover,
 .nav-a:focus {
   color: var(--col-ocean);
 }
-.nav-a:hover::after {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--col-ocean);
-  margin-top: 20px;
-}
+
 /* address */
 .address-ul {
   gap: 40px;
@@ -142,11 +125,15 @@ img {
 /* index hero */
 .index-section-hero {
   background-color: var(--col-grey);
-  background-image: url(../images/index/hero/img-hero-dark-bg.png),
-    url(../images/index/hero/img-hero-bg.png);
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/index/hero/img-hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  /* background-size: cover; */
+  background-size: cover;
   max-width: var(--cont-max-width);
   margin-left: auto;
   margin-right: auto;
