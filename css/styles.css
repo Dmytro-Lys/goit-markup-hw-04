@@ -339,6 +339,9 @@ img {
 .index-section-customers {
   padding-top: 130px;
 }
+.index-section-customers-ul {
+  justify-content: center;
+}
 .index-section-customers-h2 {
   font-size: 36px;
   line-height: calc(40 / 36);
@@ -346,6 +349,28 @@ img {
   text-transform: capitalize;
   color: var(--col-navy-blue);
   margin-bottom: 72px;
+}
+.index-section-customers-link {
+  text-decoration: none;
+  display: block;
+  content: "";
+  width: 168px;
+  height: 88px;
+  border: 1px solid var(--col-light-slate);
+  border-radius: 4px;
+}
+.index-section-customers-link:hover {
+  border: 1px solid var(--col-ocean);
+}
+.index-section-customers-link:hover > svg {
+  fill: var(--col-ocean);
+}
+.index-section-customers-svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  fill: var(--col-light-slate);
 }
 /* footer */
 
