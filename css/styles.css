@@ -366,6 +366,7 @@ img {
   width: 100%;
   height: 100%;
   border: 1px solid var(--col-light-slate);
+  color: var(--col-light-slate);
   border-radius: 4px;
   display: flex;
   justify-content: center;
@@ -373,14 +374,12 @@ img {
 }
 .index-section-customers-link:hover {
   border: 1px solid var(--col-ocean);
-}
-.index-section-customers-link:hover > svg {
-  fill: var(--col-ocean);
+  color: var(--col-ocean);
 }
 .index-section-customers-svg {
   width: 104px;
   height: 56px;
-  fill: var(--col-light-slate);
+  fill: currentColor;
 }
 /* footer */
 
