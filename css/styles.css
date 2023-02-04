@@ -13,6 +13,7 @@
   --col-white: #ffffff;
   --col-background: #e5e5e5;
   --col-btn-shadow: rgba(0, 0, 0, 0.15);
+  --col-background-footer: rgba(255, 255, 255, 0.1);
   --col-navy-blue-shadow1: rgba(46, 47, 66, 0.08);
   --col-navy-blue-shadow2: rgba(46, 47, 66, 0.16);
   --cont-max-width: 1440px;
@@ -207,7 +208,7 @@ img {
   background-position: center;
   margin-bottom: 8px;
 }
-/* icons */
+/* icons section strategy*/
 .icon-antenna::before {
   background-image: url(../images/index/strategy/svg-antenna.svg);
 }
@@ -285,7 +286,8 @@ img {
   height: 260px;
 }
 .index-section-team-cards-text {
-  padding: 32px 0px;
+  padding-top: 32px;
+  margin-bottom: 8px;
 }
 .index-section-team-cards-h3 {
   font-weight: 500;
@@ -298,6 +300,40 @@ img {
 .index-section-team-cards-p {
   line-height: calc(24 / 16);
   text-align: center;
+}
+.index-section-team-cards-links {
+  justify-content: center;
+  padding-bottom: 32px;
+}
+.index-section-team-cards-link {
+  background-color: var(--col-iris);
+  background-size: 16px;
+}
+.index-section-team-cards-link:hover {
+  background-color: var(--col-ocean);
+}
+/* icons social*/
+.social-links {
+  text-decoration: none;
+  display: block;
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-instagram {
+  background-image: url(../images/index/footer/svg-instagram-2.svg);
+}
+.icon-twitter {
+  background-image: url(../images/index/footer/svg-twitter-1.svg);
+}
+.icon-facebook {
+  background-image: url(../images/index/footer/svg-facebook-1.svg);
+}
+.icon-linkedin {
+  background-image: url(../images/index/footer/svg-linkedin-1.svg);
 }
 /* Section4 Customers */
 .index-section-customers {
@@ -345,6 +381,9 @@ img {
 /* social */
 .footer-social {
 }
+.footer-social-ul {
+  gap: 16px;
+}
 .footer-social-p {
   font-size: 16px;
   line-height: calc(24 / 16);
@@ -354,7 +393,11 @@ img {
   margin-bottom: 16px;
 }
 .footer-social-links {
-  text-decoration: none;
+  background-color: var(--col-background-footer);
+  background-size: 24px;
+}
+.footer-social-links:hover {
+  background-color: var(--col-green);
 }
 /* portfolio */
 /* main */
