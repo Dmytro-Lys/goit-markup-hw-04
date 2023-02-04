@@ -378,8 +378,8 @@ img {
   fill: var(--col-ocean);
 }
 .index-section-customers-svg {
-  width: calc((104 / 168) * 100%);
-  height: calc((56 / 88) * 100%);
+  width: 104px;
+  height: 56px;
   fill: var(--col-light-slate);
 }
 /* footer */
