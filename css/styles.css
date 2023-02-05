@@ -222,7 +222,6 @@ img {
 .index-section-strategy-icon {
   width: 64px;
   height: 64px;
-  /* display: block; */
 }
 .index-section-strategy-h3 {
   font-weight: 500;
@@ -312,7 +311,6 @@ img {
 }
 .index-section-team-cards-link {
   background-color: var(--col-iris);
-  background-size: calc((16 / 40) * 100%);
 }
 .index-section-team-cards-link:focus,
 .index-section-team-cards-link:hover {
