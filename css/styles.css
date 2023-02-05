@@ -13,6 +13,9 @@
   --col-white: #ffffff;
   --col-background: #e5e5e5;
   --col-btn-shadow: rgba(0, 0, 0, 0.15);
+  --col-btn-shadow1: rgba(0, 0, 0, 0.12);
+  --col-btn-shadow2: rgba(0, 0, 0, 0.08);
+  --col-btn-shadow3: rgba(0, 0, 0, 0.1);
   --col-background-footer: rgba(255, 255, 255, 0.1);
   --col-navy-blue-shadow1: rgba(46, 47, 66, 0.08);
   --col-navy-blue-shadow2: rgba(46, 47, 66, 0.16);
@@ -464,6 +467,8 @@ img {
 .portfolio-hero-btn:hover {
   color: var(--col-white);
   background-color: var(--col-ocean);
+  box-shadow: 0px 2px 2px var(--col-btn-shadow1),
+    0px 2px 1px var(--col-btn-shadow2), 0px 3px 1px var(--col-btn-shadow3);
 }
 .portfolio-hero-ul {
   flex-wrap: wrap;
